@@ -560,7 +560,7 @@ f(x₁, x₂) = (1 - x₁)² + 100(x₂ - x₁²)²
 - 样本集中在 (1, 1) 附近
 - 沿山谷方向形成细长的后验分布
 
-![Rosenbrock 后验分布](path/to/rosenbrock_result.png)
+![Rosenbrock 后验分布](results/rosenbrock_result.png)
 
 ---
 
@@ -589,7 +589,7 @@ f(x₁, x₂) = (x₁²/4000 + x₂²/4000) - cos(x₁/√1)cos(x₂/√2) + 1
 - 可能存在较小的卫星模式
 - 展示对局部陷阱的鲁棒性
 
-![Griewank 后验分布](path/to/griewank_result.png)
+![Griewank 后验分布](results/griewank_result.png)
 
 ---
 
@@ -621,7 +621,7 @@ f(x₁, x₂) = (x₁² + x₂ - 11)² + (x₁ + x₂² - 7)²
 - GMM 提议帮助探索所有最小值
 - 可能根据初始化集中在一个模式
 
-![Himmelblau 后验分布](path/to/himmelblau_result.png)
+![Himmelblau 后验分布](results/himmelblau_result.png)
 
 ---
 
@@ -650,7 +650,7 @@ f(x₁, x₂) = 418.9829 × 2 - Σᵢ xᵢ sin(√|xᵢ|)
 - 更大的搜索空间需要更多阶段
 - 展示对大域的可扩展性
 
-![Schwefel 后验分布](path/to/schwefel_result.png)
+![Schwefel 后验分布](results/schwefel_result.png)
 
 ---
 
@@ -689,7 +689,7 @@ L(k₁, k₂) = exp(-0.5 Σᵢ (λ₁ᵢ(k₁, k₂) - λ₁ᵢ^obs)² / σ₁²
 - 样本形成参数空间中的脊线
 - 展示可识别性问题
 
-![TwoDOF Case1 后验分布](path/to/twodof_case1_result.png)
+![TwoDOF Case1 后验分布](results/twodof_case1_result.png)
 
 ---
 
@@ -717,7 +717,7 @@ L(k₁, k₂) = exp(-0.5 [Σᵢ (λ₁ᵢ - λ₁ᵢ^obs)²/σ₁² + Σᵢ (λ�
 - 后验紧密围绕真实值
 - 展示更多数据带来的改进可识别性
 
-![TwoDOF Case2 后验分布](path/to/twodof_case2_result.png)
+![TwoDOF Case2 后验分布](results/twodof_case2_result.png)
 
 ---
 
@@ -747,7 +747,7 @@ L(k₁, k₂) = exp(-0.5 [Σᵢ (λ₁ᵢ - λ₁ᵢ^obs)²/σ₁² + Σᵢ (r�
 - 与 Case 2 相比不同的后验形状
 - 展示模态信息的价值
 
-![TwoDOF Case3 后验分布](path/to/twodof_case3_result.png)
+![TwoDOF Case3 后验分布](results/twodof_case3_result.png)
 
 ---
 
